@@ -1,6 +1,5 @@
-import obtenerHoraActual from "./src/time.js";
-import Time from "./src/time.js"
 
+import {obtenerHoraActual, obtenerFechaCompleta} from "./src/time.js";
 
 //module express
 import express from "express";
@@ -22,5 +21,10 @@ app.get('/hora', (req, res)=>{
     const horaActual = obtenerHoraActual();
     res.send(`La hora actual es ${horaActual}`)
 })
+
+app.get('/fecha-completa', (req, res) => {
+    const fechaCompleta = obtenerFechaCompleta();
+    res.send(fechaCompleta);
+});
 
 
