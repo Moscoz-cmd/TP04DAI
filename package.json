@@ -1,0 +1,20 @@
+{
+  "name": "tp04dai",
+  "version": "1.0.0",
+  "description": "Cuarto tp node",
+  "homepage": "https://github.com/Moscoz-cmd/TP04DAI#readme",
+  "bugs": {
+    "url": "https://github.com/Moscoz-cmd/TP04DAI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moscoz-cmd/TP04DAI.git"
+  },
+  "license": "ISC",
+  "author": "Iván Moscovich y Juan Manuel Sabathie Lopez",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
